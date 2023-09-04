@@ -1,0 +1,24 @@
+// das ist ein Programm zur Umrechnung von Zeiteinheiten
+
+
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int main (int nNumberofArgs, char*pszArgs[])
+
+{
+
+//Sekunden
+int Sekunden;
+cout << "Geben sie die Zeit in Sekunden ein:";
+cin >> Sekunden;
+
+int Minuten;
+Minuten= Sekunden/60;
+
+cout << "Entspricht Minuten:";
+cout <<Minuten<< endl;
+
+}
